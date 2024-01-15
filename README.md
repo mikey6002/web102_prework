@@ -1,19 +1,19 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *SeaMonster Crowdfunding Inc.*
 
-Submitted by: **Your Name Here**
+Submitted by: **Barry Lin**
 
 **Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **11** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [completed] The introduction section explains the background of the company and how many games remain unfunded.
+* [completed] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [completed] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [completed] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
@@ -31,10 +31,14 @@ GIF created with ...
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
+![web102prework](https://github.com/mikey6002/web102_prework/assets/72505018/027f951d-c385-48ed-9114-4edd6c6de3b9)
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+The only challenges I faced when building the app was getting my own functionalities to work. For example, the search bar, if the user enters nothing nothing should happen, but it shows the filtered games. Eventually I 
+found a solution which is creating a statement where if the user enters nothing in the search bar all games will show. The reason behind this function is because if the searchbar was used, and if the user wants to see all games again
+they would have to use the filterd "show all games" button, but now the user can enter nothing and it will show all games as well. 
 
 ## License
 

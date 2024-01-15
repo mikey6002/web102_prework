@@ -207,3 +207,22 @@ firstGameContainer.appendChild(topGameName);
 const secondGameName = document.createElement('p');
 secondGameName.textContent = secondGame.name;
 secondGameContainer.appendChild(secondGameName);
+
+//added searchbar functionality
+const searchInput = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+searchBtn.addEventListener("click", function () {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+
+    if (searchTerm === "") {
+        // If the search term is empty, show all games
+        deleteChildElements(gamesContainer);
+        addGamesToPage(GAMES_JSON);
+    } else {
+        // If there is a game display the matching games
+        const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchTerm));
+        deleteChildElements(gamesContainer);
+        addGamesToPage(filteredGames);
+    }
+});

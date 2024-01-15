@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #6383ac;
 }
 
 #tentacles {
@@ -29,6 +29,52 @@ body {
 .stats-container:hover {
     box-shadow: 0 0 30px lightblue;
 }
+
+button:hover{
+    background-color: lightblue;
+    color: #FFFFFF;
+}
+
+#unfunded-btn:hover {
+    background-color: #fa00d0; 
+    color: #fff;
+}
+
+#funded-btn:hover {
+    background-color: #3498db; 
+    color: #fff;
+}
+
+#all-btn:hover {
+    background-color: #c4ff00; 
+    color: #fff;
+}
+
+
+#search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 6px 10px;
+    font-size: 16px;
+    background-color: #3498db; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #2980b9; /
+}
+
 
 .stats-card {
     background-color: #a8b0bc;

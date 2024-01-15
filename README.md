@@ -43,7 +43,7 @@ they would have to use the filterd "show all games" button, but now the user can
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Barry Lin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

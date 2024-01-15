@@ -16,8 +16,9 @@ The following **required** functionality is completed:
 * [completed] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Added Searchbar
+* [ ] added hover feature for filter buttons
+* [ ] changed background
 
 ## Video Walkthrough
 
